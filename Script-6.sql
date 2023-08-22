@@ -79,3 +79,5 @@ CREATE table funcionario_produto (
 foreign key(cod_funcionario) references funcionario(cod_funcionario)
 foreign key(cod_produto) references produto(cod_produto)
 );
+
+

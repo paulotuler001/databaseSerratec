@@ -64,3 +64,6 @@ INSERT into funcionario (nome_funcionario, cpf_funcionario) values
 
 SELECT * from funcionario 
 
+
+
+qualquer coisa

@@ -5,7 +5,9 @@ insert into categoria (nome_categoria,descricao_categoria) values
 	('Relógios','Os Melhores Relógios'),
 	('Informática','Os Melhores itens de Informática'),
 	('Papelaria','Os Melhores itens de Papelaria'),
-	('Alimentos','Vários Tipos de Alimentos')
+	('Alimentos','Vários Tipos de Alimentos'),
+	('Perfumaria', 'Os perfumes das celebridades')
+	
 ;
 insert into endereco (pais,uf,cidade,cep,bairro,rua) values
 	('Brasil','RJ','Petrópolis','25665-001','Bingen','Paulo Hervê'),
@@ -40,6 +42,16 @@ insert into pedido (data_do_pedido) values
 ('19/08/2023')
 ;
 
+select * from produto
+insert into produto(nome_produto, descricao_produto, quantidade_produto, data_de_fabricacao, valor_unitario, cod_categoria) values
+('Garfo do Shaquille O neal', 'O garfo pra quem tem fome grande', 3, '19/03/2022', 222.22, 1), 
+('Relógio do Faustão', 'Pra você que precisa de tempo', 5, '20/01/2023', 500000, 2),
+('O estepe do Batmóvel', 'Pra não ficar numa furada', 4, '05/02/1969', 100000, 1),
+('Caneta do Isaac Newton', 'A última chance de você se tornar inteligente', 1, '30/03/1726', 2000000, 1),
+('Primeira caneta do Sílvio Santos', 'O início da riqueza', 1, '28/02/1930', 1000000, 4),
+('Perfume com notas de mirra', 'O perfume que transforma o lixo em luxo', 1, '03/07/1600', 1000000,6)
+
+;
 
 
 

@@ -67,3 +67,4 @@ SELECT * from funcionario
 
 
 qualquer coisa
+oi

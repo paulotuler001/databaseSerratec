@@ -53,5 +53,38 @@ insert into produto(nome_produto, descricao_produto, quantidade_produto, data_de
 
 ;
 
+insert into cliente_pedido(cod_cliente, cod_pedido) values
+(1, 5),
+(2, 2),
+(3, 1),
+(4, 3),
+(5, 4),
+(6, 2),
+(4, 5)
+;
+
+insert into funcionario_produto(cod_funcionario, cod_produto) values
+(1, 3),
+(2, 2),
+(3, 4),
+(4, 5),
+(5, 1),
+(6, 6)
+;
+
+select * from categoria
+insert into produto_pedido(cod_produto, cod_pedido) values
+(1, 1),
+(2, 5),
+(3, 2),
+(4, 3),
+(5, 4),
+(6, 4)
+;
+
+UPDATE categoria set nome_categoria = 'Automóveis' where cod_categoria = 5
+UPDATE categoria set descricao_categoria = 'Os melhores itens para seu automóvel' where cod_categoria = 5
+
+DELETE from categoria where cod_categoria = 3
 
 

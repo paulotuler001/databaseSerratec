@@ -1,12 +1,11 @@
-select * from cliente;
+select * from categoria;
 
 insert into categoria (nome_categoria,descricao_categoria) values
-	('NOME DA CATEGORIA','DESCRIÇÃO DA CATEGORIA'),
-	('NOME DA CATEGORIA','DESCRIÇÃO DA CATEGORIA'),
-	('NOME DA CATEGORIA','DESCRIÇÃO DA CATEGORIA'),
-	('NOME DA CATEGORIA','DESCRIÇÃO DA CATEGORIA'),
-	('NOME DA CATEGORIA','DESCRIÇÃO DA CATEGORIA')
-;
+	('Raridades','Os itens mais raros'),
+	('Relógios','Os Melhores Relógios'),
+	('Informática','Os Melhores itens de Informática'),
+	('Papelaria','Os Melhores itens de Papelaria'),
+	('Alimentos','Vários Tipos de Alimentos')
 insert into endereco (pais,uf,cidade,cep,bairro,rua) values
 	('NOME DO PAÍS','NOME DA UF','NOME DA CIDADE','NÚMERO DO CEP','NOME DO BAIRRO','NOME DA RUA'),
 	('NOME DO PAÍS','NOME DA UF','NOME DA CIDADE','NÚMERO DO CEP','NOME DO BAIRRO','NOME DA RUA'),
